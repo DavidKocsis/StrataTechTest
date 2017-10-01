@@ -1,0 +1,20 @@
+﻿[
+  {
+    "Customer": "testCustomer1",
+    "ProductId": "product1",
+    "Quantity": 1,
+    "UnitPrice": 25
+  },
+  {
+    "Customer": "testCustomer1",
+    "ProductId": "product2",
+    "Quantity": 3,
+    "UnitPrice": 60
+  },
+  {
+    "Customer": "testCustomer2",
+    "ProductId": "product1",
+    "Quantity": 1,
+    "UnitPrice": 25
+  }
+]

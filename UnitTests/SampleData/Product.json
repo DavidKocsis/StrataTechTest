@@ -1,0 +1,12 @@
+﻿[
+  {
+    "Code": "product1",
+    "Description": "Test Product 1",
+    "UnitPrice": "25"
+  },
+  {
+    "Code": "product2",
+    "Description": "Test Product 2",
+    "UnitPrice": "80"
+  }
+]

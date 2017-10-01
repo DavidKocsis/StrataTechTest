@@ -1,0 +1,1 @@
+[{"Customer":"testCustomer1","ProductId":"product1","Quantity":1,"UnitPrice":25.0},{"Customer":"testCustomer1","ProductId":"product2","Quantity":3,"UnitPrice":60.0},{"Customer":"testCustomer2","ProductId":"product1","Quantity":1,"UnitPrice":25.0},{"Customer":"testCustomer3","ProductId":"product3","Quantity":2,"UnitPrice":43.0}]

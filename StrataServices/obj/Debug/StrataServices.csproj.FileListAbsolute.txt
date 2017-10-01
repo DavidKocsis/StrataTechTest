@@ -1,0 +1,7 @@
+C:\Users\Dave\source\repos\StrateTest\StrataServices\bin\Debug\StrataServices.dll
+C:\Users\Dave\source\repos\StrateTest\StrataServices\bin\Debug\StrataServices.pdb
+C:\Users\Dave\source\repos\StrateTest\StrataServices\obj\Debug\StrataServices.csproj.CoreCompileInputs.cache
+C:\Users\Dave\source\repos\StrateTest\StrataServices\obj\Debug\StrataServices.dll
+C:\Users\Dave\source\repos\StrateTest\StrataServices\obj\Debug\StrataServices.pdb
+C:\Users\Dave\source\repos\StrateTest\StrataServices\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dave\source\repos\StrateTest\StrataServices\bin\Debug\Newtonsoft.Json.xml
