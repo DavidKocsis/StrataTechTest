@@ -1,0 +1,10 @@
+﻿[
+  {
+    "Name": "testCustomer1",
+    "Address": "testAddress1",
+    "Email": "test@test.com",
+    "Password": "password1",
+    "Type": "Standard",
+    "TwelveMonthTotal": "100"
+  }
+  ]

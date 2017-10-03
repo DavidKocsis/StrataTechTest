@@ -10,7 +10,7 @@ using StrateTest;
 
 namespace StrataBasket
 {
-    public class Basket
+    public class Basket : IBasket
     {
         private readonly ICustomerDetailsRepository _customerDetailsRepository;
         private readonly IBasketRepository _basketRepository;
@@ -32,7 +32,11 @@ namespace StrataBasket
         public bool AuthenticateUser(string userName, string password)
         {
             var customer = _customerDetailsRepository.GetDetails(userName);
-
+            if (customer == null)
+            {
+                return false;
+                
+            }
             return customer.Password == password;
         }
 
@@ -41,7 +45,7 @@ namespace StrataBasket
             _basketRepository.Add(request);
         }
 
-        public void ProcessOrder(string userName)
+        public Order ProcessOrder(string userName)
         {
             //chek payment
             if(_paymentService.Authorize())
@@ -49,10 +53,9 @@ namespace StrataBasket
                var order =  GenerateOrder(userName);
                 _messager.SendConfirmationToCustomer(order);
                 _messager.SendDetailsToCouriers(order);
+                return order;
             }
-            //generate order
-            //send confimation
-            //send courier details
+            return null;
         }
 
         public Order GenerateOrder(string userName)

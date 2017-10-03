@@ -56,6 +56,8 @@
     <Compile Include="JsonRepos\CustomerDetailsJsonRepository.cs" />
     <Compile Include="JsonRepos\ProductJsonRepository.cs" />
     <Compile Include="Mappers\OrderMapper.cs" />
+    <Compile Include="Messager.cs" />
+    <Compile Include="PaymentService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
